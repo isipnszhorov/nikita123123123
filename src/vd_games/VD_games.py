@@ -1,6 +1,9 @@
-"""Основной модуль игры VD Games."""
+from vd_games.cli import welcome_user
+
 
 def main():
-    """Основная функция приложения."""
-    print("Hello, VD Games!")
+    welcome_user()
 
+
+if __name__ == "__main__":
+    main()
