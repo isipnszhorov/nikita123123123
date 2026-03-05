@@ -1,0 +1,13 @@
+"""Even game script."""
+
+from vd_games.engine import run_game
+from vd_games.games import even
+
+
+def main():
+    """Run even game."""
+    run_game(even)
+
+
+if __name__ == "__main__":
+    main()
